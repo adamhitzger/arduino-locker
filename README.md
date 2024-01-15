@@ -32,4 +32,4 @@ Include a wiring diagram or textual description of how the components are connec
 4. Connect your Arduino to the computer.
 5. Upload the code to your Arduino board.
 
-![Arduino Safe Project](img/arduino-locker.jpg)
+![Arduino Safe Project](arduino-locker/img/arduino-locker.jpg)
