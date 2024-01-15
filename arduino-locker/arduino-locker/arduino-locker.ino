@@ -118,19 +118,19 @@ void loop() {
 
   if(key){
     switch (key){
-      case 'C':
+      case 'C': //delete code
           deleteCode();
         break;
-      case 'A':
+      case 'A': //lock safe/locker
           digitalWrite(ZELENA, 0);
-          unlocked();
+          lock();
           delay(1500);
           deleteCode();
         break;
-      case 'E':
+      case 'E': //authenticate users password
           if(user.equals(code) == true){
             digitalWrite(ZELENA,1);
-            lock();
+            unlocked();
           }else if(user.equals(originSettingCode) == true){
             lcd.noBacklight();
             delay(1500);
@@ -152,7 +152,7 @@ void loop() {
             }
           }
         break ;
-      case '*':
+      case '*': //save new typed password
           if(user){
             savetToEEPROM(user, 0);
             readFromEEPROM(0);
@@ -161,7 +161,7 @@ void loop() {
             deleteCode();
           }
         break;
-      case 'B':
+      case 'B': //Serial print of var code
         Serial.println(code);
       break;
       default:
