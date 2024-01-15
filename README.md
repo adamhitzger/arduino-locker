@@ -26,10 +26,10 @@ This Arduino project implements a simple safe/locker system using a keypad, LCD 
 Include a wiring diagram or textual description of how the components are connected to the Arduino.
 
 ## Installation
-1. Clone the repository: `git clone https://github.com/your-username/arduino-safe-project.git`
-2. Open the Arduino IDE.
-3. Load the project file.
-4. Connect your Arduino to the computer.
-5. Upload the code to your Arduino board.
+1. Clone the repository: `git clone https://github.com/adamhitzger/arduino-locker.git`
+3. Open the Arduino IDE.
+4. Load the project file.
+5. Connect your Arduino to the computer.
+6. Upload the code to your Arduino board.
 
 ![Arduino Safe Project](arduino-locker/img/arduino-locker.jpg)
